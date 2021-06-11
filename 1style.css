@@ -1,0 +1,55 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  color: orange;
+}
+.banner {
+  background: url("./natural.jpg");
+  background-size: cover;
+}
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.9));
+} */
+/* .banner {
+  border: 5px solid red;
+  padding: 10px;
+  overflow: hidden;
+}
+.one {
+  float: right;
+  margin-left: 50px;
+} */
+/* .two {
+  float: left;
+  height: 1000px;
+}
+p {
+  clear: both;
+} */
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  position: static;
+}
+.one {
+  background: blue;
+  position: relative;
+}
+.two {
+  background: green;
+}
+.special {
+  background: lightcoral;
+   font-size 20px; 
+
+}

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: 600;
+}
+#people {
+  color: chartreuse;
+}
+#red {
+  color: crimson;
+}
+h1 {
+  color: darkmagenta;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-display: inherit;
+}
+.box-model {
+  display: inline-block;
+  border: double;
+  margin: 900px;
+}
+.content {
+  background-color: white;
+  color: black;
+  padding: 300px;
+}
+
+@media (max-width: 678px) {
+  body {
+    background-color: brown;
+  }
+}
+@media (min-width: 1020px) {
+  body {
+    background-color: chartreuse;
+  }
+}
+button {
+  margin: 20px;
+  background-color: darkgoldenrod;
+  border: 2px solid black;
+  color: black;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: cornflowerblue;
+}
+button:focus {
+  background-color: darkgreen;
+}
+button:disabled {
+  cursor: not-allowed;
+}

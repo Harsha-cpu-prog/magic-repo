@@ -1,0 +1,10 @@
+@media (max-width: 678px) {
+  body {
+    background-color: brown;
+  }
+}
+@media (min-width: 1020px) {
+  body {
+    background-color: chartreuse;
+  }
+}

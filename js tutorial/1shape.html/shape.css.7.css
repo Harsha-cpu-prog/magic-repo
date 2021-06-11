@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  padding: 200px;
+}
+.parent {
+  background-color: white;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  /* justify-content: space-between;  uncmnt it*/
+  /* /* center or left daldo space around ,space evenly* */
+  /* justiy align using grp and align item for single items */
+  align-items: center;
+  /* center mai aaneke liye not attache to top, flex end */
+  justify-content: center;
+  /* flex-direction: column; second topic */
+  /* justify-content: center; */
+}
+.child {
+  background-color: rgb(61, 223, 61);
+  width: 200px;
+  height: 200px;
+}
+.child2 {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+}
